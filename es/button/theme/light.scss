@@ -1,0 +1,121 @@
+.s-button-default-light {
+  //默认
+  border: 1px solid $white-h;
+  background: $white;
+  color: $black-h;
+  &:hover {
+    color: $themeColor-h;
+    border-color: $themeColor-h;
+  }
+}
+
+.s-button-primary-light {
+  //主要
+  border: 1px solid $themeColor;
+  background: $themeColor;
+  color: $white;
+  &:hover {
+    background: $themeColor-h;
+    border: 1px solid $themeColor-h;
+  }
+}
+.s-button-info-light {
+  //信息
+  border: 1px solid $gray;
+  background: $gray;
+  color: $white;
+  &:hover {
+    background: $gray-h;
+    border: 1px solid $gray-h;
+  }
+}
+.s-button-success-light {
+  //成功
+  border: 1px solid $green;
+  background: $green;
+  color: $white;
+  &:hover {
+    background: $green-h;
+    border: 1px solid $green-h;
+  }
+}
+.s-button-warn-light {
+  //警告
+  border: 1px solid $orange;
+  background: $orange;
+  color: $white;
+  &:hover {
+    background: $orange-h;
+    border: 1px solid $orange-h;
+  }
+}
+.s-button-danger-light {
+  //危险
+  border: 1px solid $red;
+  background: $red;
+  color: $white;
+  &:hover {
+    background: $red-h;
+    border: 1px solid $red-h;
+  }
+}
+
+.s-button-plain-primary-light {
+  //朴素-主要
+  border: 1px solid $themeColor-h;
+  background: $themeColor-o;
+  color: $themeColor;
+  &:hover {
+    background: $themeColor;
+    border: 1px solid $themeColor;
+    color: $white;
+  }
+}
+
+.s-button-plain-success-light {
+  //朴素-成功
+  border: 1px solid $green-h;
+  background: $green-o;
+  color: $green;
+  &:hover {
+    background: $green;
+    border: 1px solid $green;
+    color: $white;
+  }
+}
+
+.s-button-plain-info-light {
+  //朴素-信息
+  border: 1px solid $gray-h;
+  background: $gray-o;
+  color: $gray;
+  &:hover {
+    background: $gray;
+    border: 1px solid $gray;
+    color: $white;
+  }
+}
+
+.s-button-plain-warn-light {
+  //警告
+  border: 1px solid $orange-h;
+  background: $orange-o;
+  color: $orange;
+  &:hover {
+    background: $orange;
+    border: 1px solid $orange;
+    color: $white;
+  }
+}
+
+.s-button-plain-danger-light {
+  //危险
+  border: 1px solid $red-h;
+  background: $red-o;
+  color: $red;
+  &:hover {
+    background: $red;
+    border: 1px solid $red;
+    color: $white;
+  }
+}

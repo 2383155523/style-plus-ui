@@ -1,0 +1,33 @@
+/**************************************Util**************************************/
+@mixin p0 {
+  //清除默认内边距
+  padding: 0;
+}
+@mixin m0 {
+  //清除默认外边距
+  margin: 0;
+}
+@mixin b0 {
+  //清除默认border边框
+  border: none;
+}
+
+@mixin text-overflow {
+  //单行文本溢出显示小点
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@mixin text-overflow-col($col) {
+  //多行文本溢出显示小点
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $col;
+  -webkit-box-orient: vertical;
+}
+
+/**************************************resetElementDefaultStyle**************************************/
+
+/**************************************PublicStyle**************************************/

@@ -1,0 +1,121 @@
+.s-button-default-dark {
+  //默认
+  border: 1px solid $white-h;
+  background: $black-h;
+  color: $white;
+  &:hover {
+    color: $themeColor-h;
+    border-color: $themeColor-h;
+  }
+}
+
+.s-button-primary-dark {
+  //主要
+  border: 1px solid $themeColor;
+  background: $themeColor;
+  color: $black-h;
+  &:hover {
+    background: $themeColor-h;
+    border: 1px solid $themeColor-h;
+  }
+}
+.s-button-info-dark {
+  //信息
+  border: 1px solid $gray;
+  background: $gray;
+  color: $black-h;
+  &:hover {
+    background: $gray-h;
+    border: 1px solid $gray-h;
+  }
+}
+.s-button-success-dark {
+  //成功
+  border: 1px solid $green;
+  background: $green;
+  color: $black-h;
+  &:hover {
+    background: $green-h;
+    border: 1px solid $green-h;
+  }
+}
+.s-button-warn-dark {
+  //警告
+  border: 1px solid $orange-h;
+  background: $orange-h;
+  color: $black-h;
+  &:hover {
+    background: $orange-d;
+    border: 1px solid $orange-d;
+  }
+}
+.s-button-danger-dark {
+  //危险
+  border: 1px solid $red-h;
+  background: $red-h;
+  color: $black-h;
+  &:hover {
+    background: $red-d;
+    border: 1px solid $red-d;
+  }
+}
+
+.s-button-plain-primary-dark {
+  //朴素-主要
+  border: 1px solid $themeColor-h;
+  background: $themeColor-o;
+  color: $themeColor;
+  &:hover {
+    background: $themeColor;
+    border: 1px solid $themeColor;
+    color: $white;
+  }
+}
+
+.s-button-plain-success-dark {
+  //朴素-成功
+  border: 1px solid $green-h;
+  background: $green-o;
+  color: $green;
+  &:hover {
+    background: $green;
+    border: 1px solid $green;
+    color: $white;
+  }
+}
+
+.s-button-plain-info-dark {
+  //朴素-信息
+  border: 1px solid $gray-h;
+  background: $gray-o;
+  color: $gray;
+  &:hover {
+    background: $gray;
+    border: 1px solid $gray;
+    color: $white;
+  }
+}
+
+.s-button-plain-warn-dark {
+  //警告
+  border: 1px solid $orange-d;
+  background: $orange-o;
+  color: $orange;
+  &:hover {
+    background: $orange-h;
+    border: 1px solid $orange-h;
+    color: $white;
+  }
+}
+
+.s-button-plain-danger-dark {
+  //危险
+  border: 1px solid $red-h;
+  background: $red-o;
+  color: $red;
+  &:hover {
+    background: $red-d;
+    border: 1px solid $red-d;
+    color: $white;
+  }
+}
