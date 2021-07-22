@@ -12,6 +12,8 @@
 
     <div class="dynamicShowComponents">
       <stheme v-if="unitTestProjectArr[0].isShow"></stheme>
+      <sbutton v-if="unitTestProjectArr[1].isShow"></sbutton>
+      <sloading v-if="unitTestProjectArr[2].isShow"></sloading>
     </div>
   </s-theme>
 </template>
@@ -20,6 +22,8 @@
 import { ref, reactive } from "vue";
 //引入单元测试组件
 import stheme from "./components/themeUnitTest/test1.vue";
+import sbutton from "./components/buttonUnitTest/test1.vue";
+import sloading from "./components/loadingUnitTest/test1.vue";
 
 //   --- ---------------- 准备工作   开始  ---------------------  //
 const unitTestProjectArr = reactive([
@@ -56,7 +60,6 @@ body {
 .dynamicShowComponents {
   margin-top: 20px;
   width: 100%;
-  min-height: 100vh;
   border: 1px solid lightsalmon;
 }
 </style>

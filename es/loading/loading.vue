@@ -59,7 +59,14 @@
             </circle>
           </g>
         </svg>
-        <p class="s-loading-text">{{ text }}</p>
+        <p
+          class="s-loading-text"
+          :style="{
+            color: stylePlus.color,
+          }"
+        >
+          {{ text }}
+        </p>
       </div>
     </div>
   </transition>
@@ -73,6 +80,7 @@ const props = defineProps({
     type: Object,
     default: {
       background: "",
+      color: "",
     },
   },
   isShow: Boolean,
