@@ -1,5 +1,5 @@
 <template>
-  <h1 style="text-align:center; margin:5px;">
+  <h1 style="text-align:center; margin:5px; color:#000;">
     loading组件演示
     <s-button type="primary" @click="changeTheme">change theme</s-button>
     <s-button

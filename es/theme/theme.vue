@@ -27,6 +27,7 @@ let { name, themeColor } = toRefs(props);
 let background = ref(name.value);
 watch(name, (newVal) => {
   background.value = newVal == "light" ? "#fff" : "#101014";
+  document.body.style.color = newVal == "light" ? "#101014" : "#fff";
 });
 
 provide("theme", name);

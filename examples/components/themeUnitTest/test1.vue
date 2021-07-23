@@ -1,5 +1,5 @@
 <template>
-  <h1 style="text-align:center; margin:5px;">theme组件演示</h1>
+  <h1 style="text-align:center; margin:5px; color:#000;">theme组件演示</h1>
   <s-theme :name="theme" class="theme">
     <s-button type="primary" @click="changeTheme">change theme</s-button>
   </s-theme>
